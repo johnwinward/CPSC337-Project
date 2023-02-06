@@ -1,0 +1,80 @@
+body{
+    background-color:mediumslateblue;
+}
+
+.navbar{
+    background-color:gray;
+}
+
+.nav-link{
+    color:darkred;
+    font-family:Papyrus, 'Times New Roman', Times, serif;
+    font-size:larger;
+}
+
+.navbar-brand{
+    color:darkred;
+}
+
+.nav-logo{
+    width: auto;
+    height: 60px;
+}
+
+footer img{
+    margin-bottom:2rem;
+}
+
+logo{
+    border-radius: 50%;
+    border-color:white;
+}
+
+.welcome{
+    text-align:center;
+    margin:4rem 1rem 3rem 1rem;
+    padding:4rem;
+    background-color:gray;
+}
+
+.shelves{
+    height: 300px;
+    width:auto;
+}
+
+.storefront{
+    height: 300px;
+    width:auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: Papyrus, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+}
+
+div.row{
+    border-bottom:1rem;
+    border-bottom-color:gray;
+    border-bottom-style:solid;
+    margin-bottom:4rem;
+    padding-bottom:4rem;
+}
+
+address{
+    text-align:center;
+    font-style:italic;
+}
+
+address a{
+    color:darkred;
+}
+
+.list-group-item{
+    background-color:gray;
+}

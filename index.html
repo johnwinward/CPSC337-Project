@@ -1,45 +1,88 @@
-<html>
-    <head>
-        <title>JDW Games</title>
-    </head>
-    <body>
-        <header>
-            <h1>Welcome to JDW Games!</h1>
-        </header>
-        <!--INSERT NAV BAR HERE-->
-        <div>
-            <h2>Who are we?</h2>
-            <p>We're JDW Games. We specialize in selling video games, old and new!
-            If you want to get the latest games, or relive your childhood, we're here for you.</p>
-            <img src="Images/games-shelf.jpg" alt="Video game store shelf filled with games" />
-        </div>
-        <div>
-            <!--Insert Image-->
-            <h2>What do we sell?</h2>
-            <p>We sell for systems like:</p>
-            <ul>
-                <li>Xbox Series X/S</li>
-                <li>Xbox 360</li>
-                <li>Playstation 5</li>
-                <li>Playstation 3</li>
-                <li>Nintendo Switch</li>
-                <li>Nintendo 64</li>
-                <li>Sega Genesis</li>
-                <li>Atari 2600</li>
-                <li>And many more!</li>
-            </ul>
-        </div>
-        <div>
-            <h2>How can I buy games?</h2>
-            <p>We have a physical store and an <a href="http://www.ebay.com">Ebay store</a></p>
-            <address>
-                JDW Games<br />
-                1234 5th Ave<br />
-                Bensalem, PA 19020<br />
-                (123) 456-7890<br />
-                <a href="http://www.ebay.com">Online Store</a>
-            </address>
+<html lang="en">
+<head>
+    <title>JDW Games</title>
+    <meta charset="utf-8" />
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="main.css" type="text/css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#">
+            <img class="img-fluid nav-logo" src="Images/Logo.png" alt="Logo" />
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Home</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Games</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Consoles</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Accessories</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Repairs</b></a>
+            </li>
+        </ul>
+    </nav>
+    <header  class="container-fluid container-md">
+        <h1 class="welcome">Welcome to <img class="rounded-circle" src="Images/Logo.png" alt="Logo"/></h1>
+    </header>
+    <div class="container-fluid">
 
+        <div class="row">
+            <div class="col">
+                <h2><b>Who are we?</b></h2>
+                <img class="mx-auto d-block shelves" src="Images/games-shelf.jpg" alt="Video game store shelf filled with games" />
+            </div>
+            <p class="col">
+                We're JDW Games. We specialize in selling or repairing video games and consoles, old and new!
+                If you want to get the latest games, relive your childhood, or just save money by fixing the Xbox you already have, 
+                we're here for you.
+            </p>
         </div>
-    </body>
+        <div class="row">
+            <div class="col">
+                <h2><b>What do we sell?</b></h2>
+                <img class="mx-auto d-block" src="Images/NES.jpg" alt="Nintendo Entertainment System Console" />
+            </div>
+            <div class="col">
+            <p>We sell for systems like:</p>
+            <ul class="list-group sell-list">
+                <li class="list-group-item">Xbox Series X, One, 360, Original</li>
+                <li class="list-group-item">Playstation 5, 4, 3, 2, 1</li>
+                <li class="list-group-item">NES, SNES, Nintendo 64</li>
+                <li class="list-group-item">Sega Genesis</li>
+                <li class="list-group-item">Atari 2600</li>
+                <li class="list-group-item">And many more!</li>
+            </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2><b>How can I buy games?</b></h2>
+                <img class="mx-auto d-block storefront" src="Images/Storefront.jpg" alt="A shopping center in Bensalem, Pennsylvania" />
+            </div>
+            <p class="col">You can purchase games here, or you can visit our physical store in Bensalem, Pennsylvania!</p>
+        </div>
+    </div>
+    <footer class="container-fluid container-sm">
+        <img class="mx-auto d-block rounded-circle nav-logo" src="Images/Logo.png" alt="Logo" />
+        <address>
+            JDW Games<br />
+            1234 5th Ave<br />
+            Bensalem, PA 19020<br />
+            (123) 456-7890<br />
+            <a href="http://www.ebay.com">Ebay Store</a>
+        </address>
+    </footer>
+    <!--Bootstrap JS and JQuery (Required for Bootstrap 4)-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
 </html>
