@@ -6,17 +6,13 @@ body{
     background-color:gray;
 }
 
-.nav-link{
-    color:darkred;
-    font-family:Papyrus, 'Times New Roman', Times, serif;
-    font-size:larger;
+.nav-link {
+    color: darkred;
+    font-family: Papyrus, 'Times New Roman', Times, serif;
+    font-size: larger;
 }
 
-.navbar-brand{
-    color:darkred;
-}
-
-.nav-logo{
+.logo{
     width: auto;
     height: 60px;
 }
@@ -25,26 +21,13 @@ footer img{
     margin-bottom:2rem;
 }
 
-logo{
-    border-radius: 50%;
-    border-color:white;
+h1{
+    text-align: center;
+    margin:4rem 1rem 2rem 1rem;
 }
 
-.welcome{
-    text-align:center;
-    margin:4rem 1rem 3rem 1rem;
-    padding:4rem;
-    background-color:gray;
-}
-
-.shelves{
-    height: 300px;
-    width:auto;
-}
-
-.storefront{
-    height: 300px;
-    width:auto;
+h1+img{
+    margin-bottom: 2rem;
 }
 
 h2 {
@@ -54,7 +37,7 @@ h2 {
 }
 
 p{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lucida Console', 'Times New Roman', Times, serif;
     font-size:xx-large;
 }
 
