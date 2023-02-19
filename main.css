@@ -1,14 +1,15 @@
 body{
-    background-color:mediumslateblue;
+    background-color:#FB2576;
 }
 
 .navbar{
-    background-color:gray;
+    background-color:#3f0071;
+
 }
 
 .nav-link {
-    color: darkred;
-    font-family: Papyrus, 'Times New Roman', Times, serif;
+    color: #FB2576;
+    font-family: 'Lucida Console', 'Times New Roman', Times, serif;
     font-size: larger;
 }
 
@@ -21,43 +22,54 @@ footer img{
     margin-bottom:2rem;
 }
 
-h1{
+h1 {
     text-align: center;
-    margin:4rem 1rem 2rem 1rem;
+    margin: 2rem 1rem 2rem 1rem;
+    font-family: 'Magneto', 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: #0002A1;
 }
 
 h1+img{
     margin-bottom: 2rem;
+    width:400px;
+    height:auto;
 }
 
 h2 {
     text-align: center;
-    font-family: Papyrus, 'Times New Roman', Times, serif;
-    font-size:xx-large;
+    font-family: 'Lucida Console', 'Times New Roman', Times, serif;
+    font-size:70px;
+    color:#0002A1;
+    margin-bottom: 50px;
 }
 
-p{
+p {
     font-family: 'Lucida Console', 'Times New Roman', Times, serif;
-    font-size:xx-large;
+    font-size: 35px;
+    color: #0002A1;
 }
 
 div.row{
     border-bottom:1rem;
-    border-bottom-color:gray;
+    border-bottom-color:#3f0071;
     border-bottom-style:solid;
     margin-bottom:4rem;
     padding-bottom:4rem;
 }
 
-address{
-    text-align:center;
-    font-style:italic;
+address {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Console', 'Times New Roman', Times, serif;
+    color: #0002A1;
 }
 
-address a{
-    color:darkred;
+address a, p a{
+    color:#332FD0;
 }
 
 .list-group-item{
-    background-color:gray;
+    background-color:#3f0071;
+    color:#FB2576;
 }
