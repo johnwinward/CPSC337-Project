@@ -58,6 +58,15 @@ div.row{
     padding-bottom:4rem;
 }
 
+div.col-md img{
+    height: 300px;
+    width: auto;
+}
+
+div.col-md p{
+    height: 100px;
+}
+
 address {
     text-align: center;
     font-style: italic;
