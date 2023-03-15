@@ -50,9 +50,26 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="consoles">
             <h1 class="container-fluid">Consoles we support</h1>
-            <div class="col-md-4">
+            <!--Dropdown Div-->
+            <div class="container-fluid">
+                <div class="text-center">
+                    <label for="console-dropdown"><b>Developer: </b></label>
+                    <select id="console-dropdown" onchange="displayConsoles()">
+                        <option>All</option>
+                        <option>Atari</option>
+                        <option>Microsoft</option>
+                        <option>Nintendo</option>
+                        <option>Sega</option>
+                        <option>Sony</option>
+                    </select>
+                </div>
+            </div>
+            <!--Consoles-->
+
+
+            <!--<div class="col-md-4">
                 <p class="text-center container-fluid"><b>Atari 2600</b></p>
                 <img class="mx-auto d-block rounded img-fluid img-responsive" src="Images/Atari2600.png" alt="Atari 2600" />
                 <p class="text-center container-fluid">Release Year: 1977</p>
@@ -73,7 +90,7 @@
                 <p class="text-center container-fluid">Release Year: 1991</p>
             </div>
             <div class="col-md-4">
-                <p class="text-center container-fluid"><b>Playstation</b></p>
+                <p class="text-center container-fluid"><b>Sony Playstation</b></p>
                 <img class="mx-auto d-block rounded img-fluid img-responsive" src="Images/PS1.png" alt="Playstation" />
                 <p class="text-center container-fluid">Release Year: 1994</p>
             </div>
@@ -126,7 +143,7 @@
                 <p class="text-center container-fluid"><b>Sony Playstation 4</b></p>
                 <img class="mx-auto d-block rounded img-fluid img-responsive" src="Images/PS4.png" alt="Playstation 4" />
                 <p class="text-center container-fluid">Release Year: 2013</p>
-            </div>
+            </div>-->
         </div>
     </div>
 
@@ -143,5 +160,7 @@
     <!--Bootstrap JS and JQuery (Required for Bootstrap 4)-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!--Custom Javascript-->
+    <script src="aboutUs.js"></script>
 </body>
 </html>

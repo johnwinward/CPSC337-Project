@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Consoles>
+	<Console>
+		<Name>Atari 2600</Name>
+		<ReleaseYear>1977</ReleaseYear>
+		<Developer>Atari</Developer>
+		<Image>Atari2600.png</Image>
+	</Console>
+	<Console>
+		<Name>Nintendo Entertainment System</Name>
+		<ReleaseYear>1986</ReleaseYear>
+		<Developer>Nintendo</Developer>
+		<Image>NES.png</Image>
+	</Console>
+	<Console>
+		<Name>Sega Genesis</Name>
+		<ReleaseYear>1989</ReleaseYear>
+		<Developer>Sega</Developer>
+		<Image>SegaGen.png</Image>
+	</Console>
+	<Console>
+		<Name>Super Nintendo Entertainment System</Name>
+		<ReleaseYear>1991</ReleaseYear>
+		<Developer>Nintendo</Developer>
+		<Image>SNES.png</Image>
+	</Console>
+	<Console>
+		<Name>Sony Playstation</Name>
+		<ReleaseYear>1994</ReleaseYear>
+		<Developer>Sony</Developer>
+		<Image>PS1.png</Image>
+	</Console>
+	<Console>
+		<Name>Nintendo 64</Name>
+		<ReleaseYear>1996</ReleaseYear>
+		<Developer>Nintendo</Developer>
+		<Image>N64.png</Image>
+	</Console>
+	<Console>
+		<Name>Sony Playstation 2</Name>
+		<ReleaseYear>2000</ReleaseYear>
+		<Developer>Sony</Developer>
+		<Image>PS2.png</Image>
+	</Console>
+	<Console>
+		<Name>Xbox</Name>
+		<ReleaseYear>2001</ReleaseYear>
+		<Developer>Microsoft</Developer>
+		<Image>Xbox.png</Image>
+	</Console>
+	<Console>
+		<Name>Nintendo GameCube</Name>
+		<ReleaseYear>2001</ReleaseYear>
+		<Developer>Nintendo</Developer>
+		<Image>GameCube.png</Image>
+	</Console>
+	<Console>
+		<Name>Xbox 360</Name>
+		<ReleaseYear>2005</ReleaseYear>
+		<Developer>Microsoft</Developer>
+		<Image>Xbox360.png</Image>
+	</Console>
+	<Console>
+		<Name>Sony Playstation 3</Name>
+		<ReleaseYear>2006</ReleaseYear>
+		<Developer>Sony</Developer>
+		<Image>PS3.png</Image>
+	</Console>
+	<Console>
+		<Name>Nintendo Wii</Name>
+		<ReleaseYear>2006</ReleaseYear>
+		<Developer>Nintendo</Developer>
+		<Image>Wii.png</Image>
+	</Console>
+	<Console>
+		<Name>Nintendo Wii U</Name>
+		<ReleaseYear>2012</ReleaseYear>
+		<Developer>Nintendo</Developer>
+		<Image>WiiU.png</Image>
+	</Console>
+	<Console>
+		<Name>Xbox One</Name>
+		<ReleaseYear>2013</ReleaseYear>
+		<Developer>Microsoft</Developer>
+		<Image>Xbox1.png</Image>
+	</Console>
+	<Console>
+		<Name>Sony Playstation 4</Name>
+		<ReleaseYear>2013</ReleaseYear>
+		<Developer>Sony</Developer>
+		<Image>PS4.png</Image>
+	</Console>
+</Consoles>
