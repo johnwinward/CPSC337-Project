@@ -110,6 +110,20 @@ div.col-md-4:hover p{
     margin-bottom: 50px;
 }
 
-.developer{
-    
+label {
+    font-family: 'Lucida Console', 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: #0002A1;
+}
+
+.form {
+    margin-top: 50px;
+}
+
+#checkbox-div {
+    padding-left: 5%;
+}
+
+#repairs-div p {
+    margin-bottom: 3rem;
 }
