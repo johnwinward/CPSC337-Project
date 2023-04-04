@@ -2,43 +2,51 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <main>
-        <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="aspnetTitle">ASP.NET</h1>
-            <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-            <p><a href="http://www.asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
-        </section>
+    <div class="container-sm">
+        <h1>Welcome to</h1>
+        <img class="rounded-circle img-fluid d-block mx-auto" src="Images/Logo.png" alt="Logo" />
+    </div>
+    <div class="container-fluid">
 
         <div class="row">
-            <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-                <h2 id="gettingStartedTitle">Getting started</h2>
+            <div class="col">
+                <h2><b>Who are we?</b></h2>
                 <p>
-                    ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-                A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+                    We're JDW Games. We specialize in reparing and selling video games and consoles, old or new!
+                    If you want to get the latest games, relive your childhood through retro games, or fix that broken Xbox you've been holding on to,
+                    we're here for you.
                 </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-                </p>
-            </section>
-            <section class="col-md-4" aria-labelledby="librariesTitle">
-                <h2 id="librariesTitle">Get more libraries</h2>
-                <p>
-                    NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-                </p>
-            </section>
-            <section class="col-md-4" aria-labelledby="hostingTitle">
-                <h2 id="hostingTitle">Web Hosting</h2>
-                <p>
-                    You can easily find a web hosting company that offers the right mix of features and price for your applications.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-                </p>
-            </section>
+            </div>
+            <div class="col d-flex">
+                <img class="rounded mx-auto d-block img-fluid justify-content-center align-self-center" src="Images/games-pile.jpg" alt="Video game store shelf filled with games" />
+            </div>
         </div>
-    </main>
+        <div class="row">
+            <div class="col d-flex">
+                <img class="rounded mx-auto d-block img-fluid justify-content-center align-self-center" src="Images/games-counter.jpg" alt="Nintendo Entertainment System Console" />
+            </div>
+            <div class="col">
+                <h2><b>What do we sell?</b></h2>
+                <p>We sell games and consoles like:</p>
+                <ul class="list-group sell-list">
+                    <li class="list-group-item">Xbox Series X, One, 360, Original</li>
+                    <li class="list-group-item">Playstation 5, 4, 3, 2, 1</li>
+                    <li class="list-group-item">NES, SNES, Nintendo 64</li>
+                    <li class="list-group-item">Sega Genesis</li>
+                    <li class="list-group-item">Atari 2600</li>
+                    <li class="list-group-item">And many more!</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2><b>How can I buy games?</b></h2>
+                <p class="col">If you like the games, consoles, and accessories you see here online, you can purchase them on this website, on our <a href="www.ebay.com">Ebay store</a>, or at our physical store in Bensalem, Pennsylvania!</p>
+            </div>
+            <div class="col d-flex">
+                <img class="rounded mx-auto d-block img-fluid justify-content-center align-self-center" src="Images/games-shelf2.jpg" alt="A shopping center in Bensalem, Pennsylvania" />
+            </div>
+        </div>
+    </div>
 
 </asp:Content>
