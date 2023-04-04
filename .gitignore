@@ -350,5 +350,3 @@ MigrationBackup/
 .ionide/
 
 # Custom Additions
-Web.config
-*.sln
