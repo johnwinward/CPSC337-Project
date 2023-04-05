@@ -32,5 +32,5 @@
 
 
 <asp:Content ID="RepairsCustomJS" ContentPlaceHolderID="CustomJS" runat="server">
-    <script src="repairs.js" onload="fillDropdown()"></script>
+    <script src="Scripts/repairs.js" onload="fillDropdown()"></script>
 </asp:Content>

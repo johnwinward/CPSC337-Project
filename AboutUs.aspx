@@ -37,5 +37,5 @@
 </asp:Content>
 
 <asp:Content ID="AboutUsCustomJS" ContentPlaceHolderID="CustomJS" runat="server">
-    <script src="aboutUs.js" onload="displayConsoles()"></script>
+    <script src="Scripts/aboutUs.js" onload="displayConsoles()"></script>
 </asp:Content>
