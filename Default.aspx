@@ -1,41 +1,7 @@
-<html lang="en">
-<head>
-    <title>JDW Games</title>
-    <link rel="icon" type="image/x-icon" href="Images/joystick.png">
-    <meta charset="utf-8" />
-    <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <!--Custom CSS-->
-    <link rel="stylesheet" href="main.css" type="text/css" />
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm">
-            <a class="navbar-brand" href="index.html">
-                <img class="rounded-circle img-fluid logo" src="Images/Logo.png" alt="Logo" />
-            </a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html"><b>Home</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html"><b>Games</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html"><b>Consoles</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html"><b>Accessories</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="repairs.html"><b>Repairs</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="aboutUs.html"><b>About Us</b></a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CPSC337_Project._Default" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
     <div class="container-sm">
         <h1>Welcome to</h1>
         <img class="rounded-circle img-fluid d-block mx-auto" src="Images/Logo.png" alt="Logo" />
@@ -82,18 +48,5 @@
             </div>
         </div>
     </div>
-    <footer class="container-fluid container-sm">
-        <img class="mx-auto d-block rounded-circle logo" src="Images/Logo.png" alt="Logo" />
-        <address>
-            JDW Games<br />
-            1234 5th Ave<br />
-            Bensalem, PA 19020<br />
-            (123) 456-7890<br />
-            <a href="http://www.ebay.com">Ebay Store</a>
-        </address>
-    </footer>
-    <!--Bootstrap JS and JQuery (Required for Bootstrap 4)-->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-</body>
-</html>
+
+</asp:Content>

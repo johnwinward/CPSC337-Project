@@ -1,10 +1,9 @@
-body{
-    background-color:#FB2576;
+﻿body {
+    background-color: #FB2576;
 }
 
-.navbar{
-    background-color:#3f0071;
-
+.navbar {
+    background-color: #3f0071;
 }
 
 .nav-link {
@@ -13,13 +12,13 @@ body{
     font-size: larger;
 }
 
-.logo{
+.logo {
     width: auto;
     height: 60px;
 }
 
-footer img{
-    margin-bottom:2rem;
+footer img {
+    margin-bottom: 2rem;
 }
 
 h1 {
@@ -30,17 +29,17 @@ h1 {
     color: #0002A1;
 }
 
-h1+img{
-    margin-bottom: 2rem;
-    width:400px;
-    height:auto;
-}
+    h1 + img {
+        margin-bottom: 2rem;
+        width: 400px;
+        height: auto;
+    }
 
 h2 {
     text-align: center;
     font-family: 'Lucida Console', 'Times New Roman', Times, serif;
-    font-size:70px;
-    color:#0002A1;
+    font-size: 70px;
+    color: #0002A1;
     margin-bottom: 50px;
 }
 
@@ -50,63 +49,62 @@ p {
     color: #0002A1;
 }
 
-div.row{
-    border-bottom:1rem;
-    border-bottom-color:#3f0071;
-    border-bottom-style:solid;
-    margin-bottom:4rem;
-    padding-bottom:4rem;
+div.row {
+    border-bottom: 1rem;
+    border-bottom-color: #3f0071;
+    border-bottom-style: solid;
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
 }
 
-div.col-md-4 img{
+div.col-md-4 img {
     margin-bottom: 100px;
 }
 
-div.col-md-4 p{
+div.col-md-4 p {
     font-size: 28px;
 }
 
-div.col-md-4 p:first-child {
-    font-size: 28px;
-    text-decoration: underline;
-}
+    div.col-md-4 p:first-child {
+        font-size: 28px;
+        text-decoration: underline;
+    }
 
-div.col-md-4 p:last-child {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-address {
+    div.col-md-4 p:last-child {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    address {
     text-align: center;
     font-style: italic;
     font-family: 'Lucida Console', 'Times New Roman', Times, serif;
     color: #0002A1;
 }
 
-address a, p a{
-    color:#332FD0;
-}
+    address a, p a {
+        color: #332FD0;
+    }
 
-.list-group-item{
-    background-color:#3f0071;
-    color:#FB2576;
+.list-group-item {
+    background-color: #3f0071;
+    color: #FB2576;
 }
 
 div.col-md-4:hover {
-    background-image: url("Images/sparkle.gif");
+    background-image: url("../Images/sparkle.gif");
     background-color: black;
 }
 
-div.col-md-4:hover p{
-    color: white;
-}
+    div.col-md-4:hover p {
+        color: white;
+    }
 
 .sell-list li:hover {
     background-color: #332FD0;
 }
 
-#console-dropdown{
+#console-dropdown {
     margin-bottom: 50px;
 }
 
