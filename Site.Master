@@ -23,7 +23,7 @@
                     <a class="nav-link" href="Default.aspx"><b>Home</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Default.aspx"><b>Games</b></a>
+                    <a class="nav-link" href="Games.aspx"><b>Games</b></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Default.aspx"><b>Consoles</b></a>
