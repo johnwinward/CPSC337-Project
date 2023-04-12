@@ -15,7 +15,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="Default.aspx">
                 <img class="rounded-circle img-fluid logo" src="Images/Logo.png" alt="Logo" />
             </a>
             <ul class="navbar-nav">
@@ -24,12 +24,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Games.aspx"><b>Games</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Default.aspx"><b>Consoles</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Default.aspx"><b>Accessories</b></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Repairs.aspx"><b>Repairs</b></a>

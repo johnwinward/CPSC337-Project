@@ -15,5 +15,9 @@ namespace CPSC337_Project
             SQLGames.DataBind();
             GamesGridView.DataBind();
         }
+        protected void ClearSelected(object sender, EventArgs e)
+        {
+            GamesGridView.SelectedIndex = -1;
+        }
     }
 }

@@ -33,6 +33,15 @@ namespace CPSC337_Project
         protected global::System.Web.UI.WebControls.GridView GamesGridView;
 
         /// <summary>
+        /// GameDetailsView control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DetailsView GameDetailsView;
+
+        /// <summary>
         /// SQLConsoles control.
         /// </summary>
         /// <remarks>
@@ -49,5 +58,14 @@ namespace CPSC337_Project
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SQLGames;
+
+        /// <summary>
+        /// SQLDetails control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SQLDetails;
     }
 }

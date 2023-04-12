@@ -9,7 +9,7 @@
     <div class="container-fluid">
 
         <div class="row">
-            <div class="col">
+            <div class="col-xl-6">
                 <h2><b>Who are we?</b></h2>
                 <p>
                     We're JDW Games. We specialize in reparing and selling video games and consoles, old or new!
@@ -17,15 +17,15 @@
                     we're here for you.
                 </p>
             </div>
-            <div class="col d-flex">
+            <div class="col-xl-6 d-flex">
                 <img class="rounded mx-auto d-block img-fluid justify-content-center align-self-center" src="Images/games-pile.jpg" alt="Video game store shelf filled with games" />
             </div>
         </div>
         <div class="row">
-            <div class="col d-flex">
+            <div class="col-xl-6 d-flex">
                 <img class="rounded mx-auto d-block img-fluid justify-content-center align-self-center" src="Images/games-counter.jpg" alt="Nintendo Entertainment System Console" />
             </div>
-            <div class="col">
+            <div class="col-xl-6">
                 <h2><b>What do we sell?</b></h2>
                 <p>We sell games and consoles like:</p>
                 <ul class="list-group sell-list">
@@ -39,11 +39,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col-xl-6">
                 <h2><b>How can I buy games?</b></h2>
                 <p class="col">If you like the games, consoles, and accessories you see here online, you can purchase them on this website, on our <a href="www.ebay.com">Ebay store</a>, or at our physical store in Bensalem, Pennsylvania!</p>
             </div>
-            <div class="col d-flex">
+            <div class="col-xl-6 d-flex">
                 <img class="rounded mx-auto d-block img-fluid justify-content-center align-self-center" src="Images/games-shelf2.jpg" alt="A shopping center in Bensalem, Pennsylvania" />
             </div>
         </div>

@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: #FB2576;
+    background-color: #b38dfb;
 }
 
 .navbar {
@@ -128,4 +128,8 @@ label {
 
 .GridViewText{
     font-weight: bold;
+}
+
+.ConsolesDropDown{
+    margin-top:50px;
 }
