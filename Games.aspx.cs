@@ -11,7 +11,7 @@ namespace CPSC337_Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            SQLGames.SelectCommand = "SELECT * FROM Inventory where Console = '" + ConsolesDropDown.SelectedValue + "'";
+            SQLGames.SelectCommand = "SELECT * FROM Inventory join Consoles on Inventory.Console = Consoles.ConsoleID where Console = '" + ConsolesDropDown.SelectedValue + "'";
             SQLGames.DataBind();
             GamesGridView.DataBind();
         }

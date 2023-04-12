@@ -125,3 +125,7 @@ label {
 #repairs-div p {
     margin-bottom: 3rem;
 }
+
+.GridViewText{
+    font-weight: bold;
+}

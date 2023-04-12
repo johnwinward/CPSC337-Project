@@ -11,11 +11,14 @@
             </div>
             
         </div>
-        <div class="row text-center">
+        <div class="row text-center container-fluid">
             <div class="col-12">
-                <asp:GridView ID="GamesGridView" runat="server" DataSourceID="SQLGames" AutoGenerateColumns="false">
+                <asp:GridView ID="GamesGridView" runat="server" DataSourceID="SQLGames" AutoGenerateColumns="false" CssClass="mx-auto">
                     <Columns>
-                        <asp:BoundField DataField="Name" HeaderText="Game Name" ReadOnly="True"/>
+                        <asp:BoundField DataField="Name" HeaderText="Game Name" ReadOnly="True"  ItemStyle-CssClass="GridViewText"/>
+                        <asp:ImageField DataImageUrlField="ImagePath" AlternateText="Game Image" HeaderText="Image" ReadOnly="true"></asp:ImageField>
+                        <asp:BoundField DataField="ConsoleName" HeaderText="Console" ReadOnly="True"  ItemStyle-CssClass="GridViewText"/>
+                        <asp:BoundField DataField="ReleaseYear" HeaderText="Release Year" ReadOnly="True"  ItemStyle-CssClass="GridViewText"/>
                     </Columns>
                 </asp:GridView>
             </div>
