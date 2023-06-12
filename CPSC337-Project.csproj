@@ -149,9 +149,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
+    <Content Include="App_Data\aspnet-CPSC337-Project-20230329050905.mdf" />
+    <Content Include="App_Data\aspnet-CPSC337-Project-20230329050905_log.ldf">
+      <DependentUpon>aspnet-CPSC337-Project-20230329050905.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\DefaultConnection.mdf" />
+    <Content Include="App_Data\DefaultConnection_log.ldf">
+      <DependentUpon>DefaultConnection.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\Games.mdf" />
     <Content Include="App_Data\Games_log.ldf">
       <DependentUpon>Games.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\Users.mdf" />
+    <Content Include="App_Data\Users_log.ldf">
+      <DependentUpon>Users.mdf</DependentUpon>
     </Content>
     <Content Include="Games.aspx" />
     <Content Include="Scripts\aboutUs.js" />

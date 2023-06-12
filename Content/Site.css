@@ -133,3 +133,16 @@ label {
 .ConsolesDropDown{
     margin-top:50px;
 }
+
+#map {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
